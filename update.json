@@ -1,0 +1,10 @@
+{
+  "homepage": "https://github.com/Midius/ModularWirelessConnector",
+  "0.0.1": {
+    "0.0.1": "Initializing",
+  },
+  "promos": {
+    "1.15.2-latest": "0.0.1",
+    "1.15.2-recommended": "0.0.1"
+  }
+}

@@ -1,0 +1,32 @@
+modLoader="javafml"
+loaderVersion="[31,)"
+
+issueTrackerURL="https://github.com/Midius/ModularWirelessConnector/issues" #optional
+
+[[mods]]
+modId="modularwirelessconnector"
+version="${file.jarVersion}"
+displayName="Modular Wireless Connector"
+updateJSONURL="https://raw.githubusercontent.com/Midius/ModularWirelessConnector/master/update.json"
+displayURL="https://github.com/Midius/ModularWirelessConnector"
+#logoFile="examplemod.png"
+authors="Midius"
+description='''
+Learning modding and building a wireless connector to transfer items/energy/fluids
+'''
+
+#forge
+[[dependencies.modularwirelessconnector]]
+    modId="forge"
+    mandatory=true
+    versionRange="[31,)"
+    ordering="NONE"
+    side="BOTH"
+
+#minecraft
+[[dependencies.modularwirelessconnector]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.15.2]"
+    ordering="NONE"
+    side="BOTH"
